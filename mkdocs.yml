@@ -1,0 +1,18 @@
+# mkdocs.yml
+site_name: Yuean Site
+theme:
+ name: readthedocs
+plugins:
+ - mkdocstrings
+nav:
+ - Home Page: index.md
+ - Tutorials: Tutorials.md
+ - How-to: How-to.md
+ - References: References.md
+ - Explanation: Explanation.md
+ - API reference:
+    - my_adder: API-reference/my_adder.md
+    - my_thermo_stat: API-reference/my_thermo_stat.md
+    - have_digits: API-reference/have_digits.md
+    - cal_area_of_rectangle: API-reference/cal_area_of_rectangle.md
+    - cal_perimeter_of_rectangle: API-reference/cal_perimeter_of_rectangle.md
